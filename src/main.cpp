@@ -26,9 +26,9 @@ int main(int argc, char *argv[] ){
     }
 
 
-    inputKeyboard input;
+    inputTxt input;
 
-    //input.setFilename(argv[2]);
+    input.setFilename(argv[2]);
 
     input.setupText();
 
